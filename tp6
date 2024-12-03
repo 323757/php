@@ -1,0 +1,9 @@
+参考：https://www.php.cn/thinkphp/thinkphp-tp6-start.html         https://doc.thinkphp.cn/v6_1/rukouwenjian.html
+MVC模式:控制器 - 负责转发请求，对请求进行处理。
+        视图 - 界面设计人员进行图形界面设计。
+        模型 - 程序员编写程序应有的功能（实现算法等等）、数据库专家进行数据管理和数据库设计(可以实现具体的功能)。
+架构：
+ 入口文件：www.xxx.com/index.php/index/index   index.php 入口文件index 控制器index 操作
+ URL访问：如果在没有定义或匹配路由的情况下（并且没有开启强制路由模式的话），则是基于：http://serverName/index.php（或者其它入口文件）/控制器/操作/参数/值…
+
+
