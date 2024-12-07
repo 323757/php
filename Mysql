@@ -1,0 +1,21 @@
+参考;https://www.bilibili.com/video/BV1Kr4y1i7ru/?spm_id_from=333.337.search-card.all.click&vd_source=1554c8023b63d7b8c9f88e02c0abf230
+详细语句需参考菜鸟教程配合使用
+DDL:操作表字段（列）
+        1.desc tb_user;（查看表结构）
+        +--------+-------------+------+-----+---------+-------+
+        | Field  | Type        | Null | Key | Default | Extra |
+        +--------+-------------+------+-----+---------+-------+
+        | id     | int(11)     | YES  |     | NULL    |       |
+        | name   | varchar(50) | YES  |     | NULL    |       |
+        | age    | int(11)     | YES  |     | NULL    |       |
+        | gender | varchar(1)  | YES  |     | NULL    |       |
+        +--------+-------------+------+-----+---------+-------+
+        4 rows in set (0.00 sec)
+    2.show create table tb_user;（查看创建表的详细语句）
+    3.三种数据：数值：小整数类型tinyint（1 byte）   大整数类型int(4 byte)  无符号unsigned
+           字符：char() varchar()   需要在括号内添加可添加字符大小  lg:name varchar(50 comment'姓名';
+           日期： date
+    4.注释：id int comment'编号'
+    5.ALTER TABLE 语句用于在已有的表中添加、删除或修改列。
+    6.通过使用 DROP 语句，可以轻松地删除索引、表和数据库。
+DML：数据增删改
