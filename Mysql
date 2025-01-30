@@ -20,3 +20,16 @@ DDL:操作表字段（列）
     6.通过使用 DROP 语句，可以轻松地删除索引、表和数据库。
 DML：数据增删改
 DQL:查询
+    1.基础查询
+      as起别名：select id as "编号" from emp   as 可以省略 select id "编号" from emp
+    2.条件查询
+      模糊查询用like -- 或者%
+    3.聚合函数：作用于某一列的函数   count（） max min sum   所有的null值不参与聚合函数运算
+    4.分组查询：group by
+    5.排序查询：order by
+    6.分页查询：limit
+DCL:数据控制语言：
+    1.用户管理
+    2.权限管理
+函数：
+   
